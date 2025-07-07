@@ -15,7 +15,7 @@ This script lets you split `apt upgrade` operations into smaller install scripts
 
 1. Clone the repo or download the script:
 
-git clone https://github.com/new-life-edu/safe-upgrade.git
+git clone https://github.com/linux-edu/safe-upgrade.git
 cd safe-upgrade
 chmod +x safe-upgrade.sh
 
@@ -68,6 +68,6 @@ Your sponsorship helps me:
 
 Even small contributions go a long way — thank you for helping me keep open-source accessible to everyone. 🙏
 
-[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/YourUsername)
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/linux-edu)
 
 
