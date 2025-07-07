@@ -56,3 +56,18 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Contribute
 
 PRs welcome! Or fork and customize for your use.
+
+💖 Sponsor Me
+
+If you find my work useful, consider supporting it.
+
+Your sponsorship helps me:
+- Maintain and improve open-source tools like `safe-upgrade`
+- Create more scripts for Termux and Linux users
+- Dedicate time to education and community projects
+
+Even small contributions go a long way — thank you for helping me keep open-source accessible to everyone. 🙏
+
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/YourUsername)
+
+
