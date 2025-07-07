@@ -1,3 +1,5 @@
+![Shell Script](https://img.shields.io/badge/script-bash-green.svg)
+
 Safely upgrade Debian/Ubuntu or Termux packages in small, manageable segments.**
 
 This script lets you split `apt upgrade` operations into smaller install scripts, so you can review and control updates safely.
