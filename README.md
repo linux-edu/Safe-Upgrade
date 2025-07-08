@@ -15,7 +15,7 @@ This script lets you split `apt upgrade` operations into smaller install scripts
 
 1. Clone the repo or download the script:
 
-git clone https://github.com/linux-edu/safe-upgrade.git
+git clone https://github.com/linux-edu/Safe-Upgrade.git
 cd safe-upgrade
 chmod +x safe-upgrade.sh
 
