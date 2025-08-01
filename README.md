@@ -57,11 +57,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 PRs welcome! Or fork and customize for your use.
 
-💖 Sponsor Me
+💖 Sponsor Us
 
-If you find my work useful, consider supporting it.
+If you find our work useful, consider supporting it.
 
-Your sponsorship helps me:
+Your sponsorship helps us:
 - Maintain and improve open-source tools like `safe-upgrade`
 - Create more scripts for Termux and Linux users
 - Dedicate time to education and community projects
