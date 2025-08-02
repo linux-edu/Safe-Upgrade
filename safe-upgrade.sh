@@ -7,7 +7,19 @@
 
 set -e
 
-# Detect if running in Termux or Linux
+# 🧹 Ask to clean old temporary files
+if ls upgradable_packages.txt package_segment_* install_package_segment_*.sh 1>/dev/null 2>&1; then
+    echo "Previous temporary files found."
+    read -p "Do you want to clean up old segment files from a previous run? [y/N]: " PRE_CLEAN
+    if [[ "$PRE_CLEAN" =~ ^[Yy]$ ]]; then
+        rm -f upgradable_packages.txt package_segment_* install_package_segment_*.sh
+        echo "Old files removed."
+    else
+        echo "Old files kept. Continuing..."
+    fi
+fi
+
+# 🧠 Detect Termux or Linux
 if command -v termux-info >/dev/null 2>&1; then
     APT_CMD="apt"
 else
@@ -25,13 +37,10 @@ if [ ! -s upgradable_packages.txt ]; then
     exit 0
 fi
 
-# Ask for segment size
+# 🧩 Ask for segment size
 while ! [[ "$SEGMENT_SIZE" =~ ^[0-9]+$ ]]; do
     read -p "Enter the number of packages per segment (must be a number): " SEGMENT_SIZE
 done
-
-# Clean up old files
-rm -f package_segment_* install_package_segment_*.sh
 
 echo "Splitting the list into segments of $SEGMENT_SIZE packages..."
 split -l "$SEGMENT_SIZE" upgradable_packages.txt package_segment_
@@ -47,3 +56,4 @@ ls install_package_segment_*
 
 echo "To install packages, run the generated scripts, e.g.:"
 echo "./install_package_segment_aa.sh"
+
