@@ -2,8 +2,8 @@
 # safe-upgrade.sh
 # Description: Helps you update packages in small, reviewable segments.
 # Compatible with Termux and Debian/Ubuntu Linux.
-# Author: YourGitHubUsername
-# GitHub: https://github.com/YourUsername/safe-upgrade
+# Author: linux-edu
+# GitHub: https://github.com/linux-edu/Safe-Upgrade
 
 set -e
 
