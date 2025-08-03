@@ -49,8 +49,6 @@ System-wide upgrades can occasionally break things. This tool allows:
 * Reviewing changes per segment
 * Safer debugging if something goes wrong
 
-[![Join WhatsApp Group](https://img.shields.io/badge/WhatsApp-Join%20Group-brightgreen?logo=whatsapp)](https://chat.whatsapp.com/FxchIC2cgiOJtf18qeJSKa)
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -71,5 +69,10 @@ Your sponsorship helps us:
 Even small contributions go a long way — thank you for helping us keep open-source accessible to everyone. 🙏
 
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/linux-edu)
+
+[![Join WhatsApp Group](https://img.shields.io/badge/WhatsApp-Join%20Group-brightgreen?logo=whatsapp)](https://chat.whatsapp.com/FxchIC2cgiOJtf18qeJSKa)
+
+
+
 
 
