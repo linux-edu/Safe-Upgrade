@@ -6,7 +6,7 @@ This script lets you split `apt upgrade` operations into smaller install scripts
 
 ## ✅ Features
 
-- Works on **Termux** and **Debian-based Linux** (Ubuntu, Parrot, etc.)
+- Works on Debian-based (Ubuntu, Termux, etc.)
 - Automatically uses `sudo` where needed
 - Lets you define how many packages to install per batch
 - Generates individual install scripts for each group
@@ -45,9 +45,11 @@ chmod +x safe-upgrade.sh
 
 System-wide upgrades can occasionally break things. This tool allows:
 
-* Incremental installation
+* Incrementa installation
 * Reviewing changes per segment
 * Safer debugging if something goes wrong
+
+[![Join WhatsApp Group](https://img.shields.io/badge/WhatsApp-Join%20Group-brightgreen?logo=whatsapp)](https://chat.whatsapp.com/FxchIC2cgiOJtf18qeJSKa)
 
 ## 📄 License
 
