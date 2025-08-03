@@ -1,4 +1,4 @@
-![Shell Script](https://img.shields.io/badge/linux-edu-green.svg)
+![Shell Script](https://img.shields.io/badge/linux-edu-red.svg)
 
 Safely upgrade Debian/Ubuntu or Termux packages in small, manageable segments.**
 
