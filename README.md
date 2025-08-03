@@ -66,7 +66,7 @@ Your sponsorship helps us:
 - Create more scripts for Termux and Linux users
 - Dedicate time to education and community projects
 
-Even small contributions go a long way — thank you for helping me keep open-source accessible to everyone. 🙏
+Even small contributions go a long way — thank you for helping us keep open-source accessible to everyone. 🙏
 
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github)](https://github.com/sponsors/linux-edu)
 
